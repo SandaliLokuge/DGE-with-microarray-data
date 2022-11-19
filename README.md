@@ -29,7 +29,7 @@ Limma package used for DEG identification.
 
 Converted the probe sets to relevant genes were using the Annotation package and hgu133plus2.db (Affymetrix HG-U133 Plus 2 Array) annotation data package in Bioconductor.
 
-Note: the CEL files of relevant cancer geo datasets should be separated in to tumor and non-tumor groups inorder to excute the codes.
+Note: the CEL files of the relevant cancer GEO datasets should be separated into tumor and non-tumor groups inorder to excute the codes.
 
 Order to run:
 
