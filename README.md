@@ -1,4 +1,4 @@
-# DGE-with-microarray-data
+# DGE with microarray data
 
 The aim of this study is to find the role of BRD4 isoforms in both breast and ovarian cancer. For that we performed differential gene expression analysis with microarray data downloaded from GEO database (https://www.ncbi.nlm.nih.gov/geo/). 
 
