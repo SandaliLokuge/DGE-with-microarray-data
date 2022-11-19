@@ -19,19 +19,20 @@ Accession numbers for ovarian cancer data - GSE14407, GSE36668, and GSE38666
 | GSE38666        |       18        |         12          |
 
 
-All datasets are in CEL file format created by Affymetrix DNA microarray image analysis software. They contain information about the intensity values taken from probes on an Affymetrix GeneChip. 
 
-.CEL files were analyzed by the Affy package in Bioconductor using the Robust Multiarray Average (RMA) algorithm. 
+<ul>
+  <li>All datasets are in CEL file format created by Affymetrix DNA microarray image analysis software. They contain information about the intensity values taken from probes on an Affymetrix GeneChip. </li>
+  <li>.CEL files were analyzed by the Affy package in Bioconductor using the Robust Multiarray Average (RMA) algorithm. </li>
+  <li>Used the Combat algorithm from the Bioconductor’s Surrogate Variable Analysis (SVA) package for batch normalization and performed class-specific quantile normalization.
+</li>
+  <li>Limma package used for DEG identification.</li>
+  <li>Converted the probe sets into relevant genes were using the Annotation package and hgu133plus2.db (Affymetrix HG-U133 Plus 2 Array) annotation data package in Bioconductor.</li>
+</ul>
 
-Used the Combat algorithm from the Bioconductor’s Surrogate Variable Analysis (SVA) package for batch normalization and performed class-specific quantile normalization.
-
-Limma package used for DEG identification.
-
-Converted the probe sets to relevant genes were using the Annotation package and hgu133plus2.db (Affymetrix HG-U133 Plus 2 Array) annotation data package in Bioconductor.
 
 Note: the CEL files of the relevant cancer GEO datasets should be separated into tumor and non-tumor groups inorder to excute the codes.
 
-Order to run:
+Execution order:
 
 <ol>
   <li>read_CELFiles.r</li>
