@@ -32,10 +32,13 @@ Converted the probe sets to relevant genes were using the Annotation package and
 Note: the CEL files of relevant cancer geo datasets should be separated in to tumor and non-tumor groups inorder to excute the codes.
 
 Order to run:
-read_CELFiles.r
-batchEffect_quantileNorm.r
-pca.r (to find the patterns of the datapoints - optional)
-limma_DGE_analysis.r
-volcano_plot.r (to visualize limma output)
-probe_annotation.r
+
+<ol>
+  <li>read_CELFiles.r</li>
+  <li>batchEffect_quantileNorm.r</li>
+  <li>pca.r (to find the patterns of the datapoints - optional)</li>
+  <li>limma_DGE_analysis.r</li>
+  <li>volcano_plot.r (to visualize limma output)</li>
+  <li>probe_annotation.r</li>
+</ol>
 
